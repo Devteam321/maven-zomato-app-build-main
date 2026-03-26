@@ -33,4 +33,20 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+
+            <repository>
+              <id>nexus</id>
+              <name>maven-zomato-app-build-Release Nexus Repository</name>
+              <url>http://3.111.219.63:8081/repository/maven-zomato-app-build-Release/</url>
+            </repository>
+
+            <snapshotRepository>
+              <id>nexus</id>
+              <name>maven-zomato-app-build-Release Nexus Repository</name>
+              <url>http://3.111.219.63:8081/repository/maven-zomato-app-build-Release/</url>
+            </snapshotRepository>
+
+</distributionManagement>
+
 </project>
