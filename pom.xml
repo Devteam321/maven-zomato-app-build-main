@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>in.ashokit</groupId>
-  <artifactId>01-maven-web-app</artifactId>
+  <artifactId>maven-zomato-app-build.war</artifactId>
   <packaging>war</packaging>
   <version>3.0-RELEASE</version>
   <name>maven-zomato-app-build</name>
@@ -24,7 +24,7 @@
    
   </dependencies>
   <build>
-    <finalName>maven-web-app</finalName>
+    <finalName>maven-zomato-app-build</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
