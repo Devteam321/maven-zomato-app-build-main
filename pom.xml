@@ -37,14 +37,14 @@
 
             <repository>
               <id>nexus</id>
-              <name>maven-zomato-app-build-Release Nexus Repository</name>
-              <url>http://3.111.219.63:8081/repository/maven-zomato-app-build-Release/</url>
+              <name>01-maven-web-app-Release Nexus Repository</name>
+              <url>http://13.201.57.6:8081/repository/01-maven-web-app-Release/</url>
             </repository>
 
             <snapshotRepository>
               <id>nexus</id>
-              <name>maven-zomato-app-build-Snapshot Nexus Repository</name>
-              <url>http://3.111.219.63:8081/repository/maven-zomato-app-build-Snapshot/</url>
+              <name>01-maven-web-app-Snapshot Nexus Repository</name>
+              <url>http://13.201.57.6:8081/repository/01-maven-web-app-Snapshot/</url>
             </snapshotRepository>
 
 </distributionManagement>
